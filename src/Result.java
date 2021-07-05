@@ -40,3 +40,10 @@ class Result {
     }
 
 }
+ /* C# that works
+
+    int pointsAlice = ((a0>b0)?1:0)+ ((a1>b1)?1:0)+ ((a2>b2)?1:0);
+    int pointsBob = ((a0<b0)?1:0)+ ((a1<b1)?1:0)+ ((a2<b2)?1:0);
+
+    return new int[] {pointsAlice, pointsBob};
+*/
